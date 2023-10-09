@@ -1,0 +1,50 @@
+.pageRoot {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  height: calc(100vh - 150px);
+}
+
+.usersList {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.usersListHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 16px;
+  background-color: #1f2a62;
+}
+
+.userRow {
+  margin-block: 1px 6px;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.errorText {
+  color: rgb(210, 140, 140);
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.allFields {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-tart;
+  background-color: #909196;
+  border-radius: 4px;
+  height: 56px;
+}
+
+.searchField {
+  box-shadow: none;
+  background-color: #909196;
+  border-radius: 4px;
+}
